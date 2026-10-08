@@ -102,7 +102,7 @@ class _SwitcherState extends State<Switcher> {
           duration: const Duration(milliseconds: 300),
           child: Container(
             decoration: BoxDecoration(
-              color: const Color(0xffEC7E4A),
+              color: const Color(0xFF1B5BD7),
               borderRadius: BorderRadius.circular(8),
               boxShadow: [
                 BoxShadow(
@@ -273,7 +273,7 @@ class TrianglePainter extends CustomPainter {
   bool shouldRepaint(TrianglePainter oldDelegate) => true;
 }
 
-var c = const Color(0xffEC7E4A);
+var c = const Color(0xFF1B5BD7);
 
 class Numbers extends StatefulWidget {
   final PageController? controller;

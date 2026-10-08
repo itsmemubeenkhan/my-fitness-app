@@ -1,8 +1,8 @@
 import 'shared_import.dart';
 
 // App Color
-const primaryColor = Color(0xffEC7E4A);
-const primaryLightColor = Color(0xfff6bea3);
+const primaryColor = Color(0xFF1B5BD7);
+const primaryLightColor = Color(0xFF14B8A6);
 
 // Dark Color
 const scaffoldBackgroundColor = Color(0xFF4A4A4A);
@@ -20,7 +20,7 @@ const cardBackground = Color(0xFFFAFAFA);
 
 const grayColor = Color(0xffC5C6C7);
 
-const primaryOpacity = Color(0xffFDF2ED);
+const primaryOpacity = Color(0xFFE8F0FE);
 
 const replyMsgBgColor = Color(0xFF243037);
 
