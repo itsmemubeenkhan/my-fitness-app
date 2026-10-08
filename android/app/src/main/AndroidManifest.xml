@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="<YOUR_PACKAGE_NAME>">
+    package="com.socialgeniex.fitvayra">
 
     <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -32,7 +32,7 @@
         tools:replace="android:label">
         <meta-data
             android:name="onesignal_app_id"
-            android:value="<YOUR_ONE_SIGNAL_APP_ID>" />
+            android:value="00000000-0000-0000-0000-000000000000" />
         <meta-data
             android:name="onesignal_google_project_number"
             android:value="REMOTE" />
@@ -40,7 +40,7 @@
         <service android:name="com.onesignal.GcmIntentService" />
         <!--singleTop-->
         <activity
-            android:name="<YOUR_PACKAGE_NAME>.MainActivity"
+            android:name="com.socialgeniex.fitvayra.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:exported="true"
             android:hardwareAccelerated="true"
@@ -62,7 +62,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data
                     android:scheme="https"
-                    android:host="<YOUR_DOMAIN>"
+                    android:host="fitvayra.socialgeniex.com"
                     android:pathPrefix="/mightyfitness"/>
             </intent-filter>
 
@@ -95,16 +95,16 @@
             android:value="2" />
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="<YOUR_ADMOB_ID>" />
+            android:value="ca-app-pub-0000000000000000~0000000000" />
 
 
         <!--<meta-data
             android:name=
                 "com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
-            android:value="<YOUR_PACKAGE_NAME>.GoogleCastOptionsProvider" />-->
+            android:value="com.socialgeniex.fitvayra.GoogleCastOptionsProvider" />-->
         <!--<meta-data
             android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
-            android:value="<YOUR_PACKAGE_NAME>.GoogleCastOptionsProvider" />-->
+            android:value="com.socialgeniex.fitvayra.GoogleCastOptionsProvider" />-->
 
         <meta-data
             android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
