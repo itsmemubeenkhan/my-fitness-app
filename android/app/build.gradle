@@ -17,7 +17,6 @@ if (localPropertiesFile.exists()) {
 
 android {
     compileSdkVersion 36
-    ndkVersion "29.0.14033849"
     buildToolsVersion "36.0.0"
     namespace "com.socialgeniex.fitvayra"
 
