@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "000000000000",
-    "project_id": "fitvayra-temp",
-    "storage_bucket": "fitvayra-temp.appspot.com"
+    "project_number": "79393651339",
+    "project_id": "fitvayra",
+    "storage_bucket": "fitvayra.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:000000000000:android:0000000000000000",
+        "mobilesdk_app_id": "1:79393651339:android:f100afd00cb6ceac40728e",
         "android_client_info": {
           "package_name": "com.socialgeniex.fitvayra"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaTempKeyForBuildOnly000000000000"
+          "current_key": "AIzaSyD0ID1-7oew2wdf1CdgguYiFaHVNIWJH-c"
         }
       ],
       "services": {
