@@ -19,7 +19,7 @@ android {
     compileSdkVersion 36
     ndkVersion "29.0.14033849"
     buildToolsVersion "36.0.0"
-    namespace "<YOUR_PACKAGE_NAME>"
+    namespace "com.socialgeniex.fitvayra"
 
     compileOptions {
         coreLibraryDesugaringEnabled true
@@ -42,7 +42,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "<YOUR_PACKAGE_NAME>"
+        applicationId "com.socialgeniex.fitvayra"
         minSdkVersion 26
         targetSdkVersion 36
         versionCode 17

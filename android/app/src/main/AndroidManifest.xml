@@ -26,7 +26,7 @@
         android:allowBackup="false"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="<YOUR_APP_NAME>"
+        android:label="FitVayra: Home Workout"
         android:largeHeap="true"
         android:usesCleartextTraffic="true"
         tools:replace="android:label">

@@ -1,4 +1,4 @@
-package <YOUR_PACKAGE_NAME>
+package com.socialgeniex.fitvayra
 
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.android.FlutterFragmentActivity
