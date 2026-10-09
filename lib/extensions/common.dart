@@ -365,11 +365,11 @@ void pop([Object? object]) {
 class AppServerConfig {
   static String get baseUrl {
     if (kReleaseMode) {
-      return 'ADD_YOUR_DOMAIN_URL';
+      return 'https://fitvayra.aspirewebsitedesigns.com';
     } else if (kProfileMode) {
-      return 'ADD_YOUR_DOMAIN_URL';
+      return 'https://fitvayra.aspirewebsitedesigns.com';
     } else {
-      return 'ADD_YOUR_DOMAIN_URL';
+      return 'https://fitvayra.aspirewebsitedesigns.com';
     }
   }
 }
